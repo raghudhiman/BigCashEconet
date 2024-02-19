@@ -1,0 +1,92 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30% 0 30%;
+    background: white;
+}
+.sub_container{
+    width: 100%;
+    background: linear-gradient(to bottom,#5ec2e7, #ffffff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sub_container_sub{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
+    background:url("../Images/Vector.png");
+    background-position: -90px -250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header_text{
+    font-size: 2rem;
+    font-family: 'Montserrat',sans-serif;
+    color: #2b368a;
+    font-weight: bold;
+}
+
+.menu_icon{
+    font-size: 1.5rem;
+    color: white;
+}
+.container_area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container_area_header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3rem 0 3rem 0;
+    background: linear-gradient(to right,#2b368a,transparent),url("../Images/Vector\ 23.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.games_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 100%;
+}

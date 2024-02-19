@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.container {
+  min-height: 100vh;
+  width: 470px;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(#5ec3e7, #fff);
+}
+
+.success {
+    text-align: center;
+    position: relative;
+    top: 37%;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .verification {
+    top: 15%;
+  }
+
+  .contect_num {
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+  .contect_num h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+  }
+  .contect_num p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2B368A;
+  }
+
+  .succes_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .success_content h2 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2B368A;
+  }
+  .success_content p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+    color: #2B368A;
+  }
+  .success_content button {
+    background: #E92230;
+    padding: 12px 90px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .container.white-bg {
+      box-shadow: unset;
+      background: #fff;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+
+
+.gap{
+    padding: 0 0.5rem 0 0.5rem;
+}
+.input_box{
+    width: 8rem !important;
+    height: 6rem !important;
+    font-size: 1.5rem;
+    color: #333;
+    background: transparent;
+    border: 0.1rem solid #2B368A;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.footer_logo{
+    width: 20rem;
+    height: 5rem;
+}
+
+@media screen and (min-height:670px){
+    .footer_container{
+        position:fixed;
+        bottom: 1rem;
+        left:50%;
+        transform: translate(-50%,-1rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+/* Update your existing CSS file (Otp.module.css) or create a new CSS file for toast styling */
+/* Styling for individual toast notifications */
+.Toastify__toast {
+    width: 50% !important; 
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Success Toast styling */
+  .Toastify__toast--success {
+    background-color: #28a745; /* Green background for success */
+    color: #fff; /* White text color */
+  }
+  
+  /* Error Toast styling */
+  .Toastify__toast--error {
+    background-color: #dc3545; /* Red background for error */
+    color: #fff; /* White text color */
+  }
+  
+  /* Info Toast styling */
+  .Toastify__toast--info {
+    background-color: #17a2b8; /* Blue background for info */
+    color: #fff; /* White text color */
+  }
+ 

@@ -1,0 +1,125 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tab1 p{
+    color:#000855;
+    font-size: 2rem;
+    width: 100%;
+    font-weight: bolder;
+    padding:0 1rem 0 1rem;
+    border-bottom: 2px solid #e43500;
+    cursor: pointer;
+}
+
+.tab2 p{
+    color:#001d9e;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding:0 1rem 0 1rem;
+    border-bottom: 2px solid #c1c1c1;
+    cursor: pointer;
+}
+
+.form_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    flex-direction: column;
+}
+
+.label_container{
+    padding: 1rem 2rem 0 2rem;
+    background: linear-gradient(45deg,rgb(1, 28, 179),rgb(0, 28, 153));
+    border-radius: 3rem;
+}
+
+.label{
+    font-size: 3rem;
+    /* color: #c1c1c1; */
+    color:#fff;
+    text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    /* color: #c1c1c1; */
+    background: linear-gradient(to right,#00063f,#00276e);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form_container input{
+    margin-top: -2rem;
+    width: 40%;
+    border: 2px solid rgb(177, 177, 177);
+    outline: none;
+    background: transparent;
+    color:white;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:800px){
+    .form_container input{
+        width: 80%;
+    }
+}
+
+.form_container input::placeholder{
+   color:white;
+   text-transform: uppercase;
+   letter-spacing: 0.2rem;
+}
+
+.input_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_text{
+    margin-top: -2rem;
+    border: 2px solid rgb(177, 177, 177);
+    border-right: none;
+    height: 7.2rem;
+    border-radius: 2rem 0 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_text p{
+    color:white;
+    font-size: 2rem;
+    padding: 2rem 1rem 0 1rem;
+}
+
+.btn{
+    width: 20rem;
+    height:5rem;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    background: linear-gradient(45deg,rgb(216, 20, 20) 0%,rgb(218, 63, 2));
+}
+
+
+.footer_logo{
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20rem;
+    height: 5rem;
+}
